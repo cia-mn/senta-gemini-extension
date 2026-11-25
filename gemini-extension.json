@@ -1,0 +1,16 @@
+{
+  "name": "senta",
+  "version": "1.0.0",
+  "description": "Connect Gemini CLI to Senta (ХАБЭА / HSE) to query work permits, safety observations, inspections, and instructions, or create safe non-signing drafts across your organizations.",
+  "repository": "https://github.com/cia-mn/senta-gemini-extension",
+  "mcpServers": {
+    "senta": {
+      "httpUrl": "https://control.senta.mn/mcp",
+      "oauth": {
+        "enabled": true
+      },
+      "timeout": 30000
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
