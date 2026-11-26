@@ -31,7 +31,14 @@ You control which organizations Gemini can access and whether each organization 
 
 ## Available Tools
 
-### Discovery & Read-Only Tools (enabled by default)
+### Organization-Free HSE & Training Standards (Works Even Without an Organization!)
+| Tool | Description |
+| :--- | :--- |
+| `list_hse_standards` | List all Mongolian HSE laws, training standards (`MNS 4969:2000`, `ХАБЭА-н сургалтын журам`), official document formatting (`MNS 5140:2026`), and HSE document practice guides |
+| `search_hse_knowledge` | Keyword search across all Mongolian HSE standards, training rules, PPE, risk assessment, and document templates |
+| `get_hse_document_guide` | Read the full text of any standard or document guide by slug to draft standards-compliant documents |
+
+### Discovery & Read-Only Organization Tools (enabled by default)
 | Tool | Description |
 | :--- | :--- |
 | `list_organizations` | List your Senta organizations, roles, and MCP access levels (`off`/`read`/`write`) |
